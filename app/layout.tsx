@@ -17,8 +17,9 @@ export default function Layout({children}) {
     return (
         <html lang='en' className={roboto.className}>
         <head>
+            <meta content='2414816385225638' property='fb:app_id'/>
             <title>Learn NextJS Fundamentalck</title>
-            
+
         </head>
         <body className='flex flex-col px-4 py-4 min-h-screen'>
         <header>
