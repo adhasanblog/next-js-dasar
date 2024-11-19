@@ -24,14 +24,24 @@ export async function generateMetadata(props): Promise<Metadata> {
             title: post.title,
             description: post.excerpt,
             siteName: 'Next.js Fundamental',
-            images: [{
-                alt: post.title,
-                height: 630,
-                width: 1200,
-                url: post.imageUrl,
-                href: post.imageUrl,
-                type: 'image/jpg'
-            }],
+            images: [
+                {
+                    alt: post.title,
+                    height: 630,
+                    width: 1200,
+                    url: post.imageUrl,
+                    href: post.imageUrl,
+                    type: 'image/jpg'
+                },
+                {
+                    alt: post.title,
+                    height: 315,
+                    width: 600,
+                    url: post.imageUrl,
+                    href: post.imageUrl,
+                    type: 'image/jpg'
+                }
+            ],
         }
     }
 }
