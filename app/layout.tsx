@@ -18,6 +18,7 @@ export default function Layout({children}) {
         <html lang='en' className={roboto.className}>
         <head>
             <title>Learn NextJS Fundamentalck</title>
+            
         </head>
         <body className='flex flex-col px-4 py-4 min-h-screen'>
         <header>
