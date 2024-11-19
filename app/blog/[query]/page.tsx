@@ -20,7 +20,7 @@ export async function generateMetadata(props): Promise<Metadata> {
         description: post.excerpt,
         openGraph: {
             type: 'website',
-            url: `/blog/${post.slug}`,
+            url: `./blog/${post.slug}`,
             title: post.title,
             description: post.excerpt,
             siteName: 'Next.js Fundamental',
